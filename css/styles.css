@@ -1,0 +1,178 @@
+/* GENERAL */
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
+    text-align: center;
+}
+
+a{
+    color:black;
+}
+
+a:hover{
+    color:black;
+}
+
+.container-fluid{
+    padding: 7% 15%;
+}
+
+/* COLOR SECTION */
+
+.white-section{
+    background-color: white;
+}
+
+.colored-section{
+    background-color: #ff4c68;
+    color:white;
+}
+
+/* HEADINGS */
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: 3.5rem;
+    font-weight: 900;
+}
+
+.big-header{
+    font-size: 3.5rem;
+}
+
+.med-header{
+    font-size: 3rem;
+}
+
+.small-header{
+    font-size: 1.5rem;
+}
+
+
+/* NAVIGATION BAR */
+.navbar{
+    padding-bottom: 4.5rem;
+}
+
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+}
+
+.navbar-collapse{
+    position: absolute;
+    right: 0;
+}
+
+/* TITLE */
+
+.title-img{
+    position: absolute;
+    transform: rotate(25deg);
+    right:28%;
+    width: 60%;
+}
+
+#title .container-fluid{
+    padding: 3% 15% 7%;
+    text-align: left;
+}
+
+.download-btn{
+    margin: 5% 3% 5% 0;
+}
+
+@media (max-width: 1032px){
+    .title-img{
+        position: static;
+        transform: rotate(0deg);
+        width: 60%;
+    }
+    #title{
+        text-align: center;
+    }
+}
+
+/* FEATURES */
+
+#features{
+    position: relative;
+    z-index: 1;
+}
+
+.features-icon{
+    color: #ef8171;
+    margin-bottom: 1.5rem;
+}
+.features-icon:hover{
+    color: #ff4c68;
+}
+
+.feature-p{
+    color:#8f8f8f;
+}
+
+.feature-box{
+    padding:5%;
+}
+
+.col-position{
+    position: relative;
+}
+
+/* TESTIMONIALS */
+
+#testimonials{
+    background-color: #ef8171;
+}
+
+.testimonial-img{
+    border-radius: 100%;
+    margin: 20px;
+    width: 10%;
+}
+
+/* PRESS SECTION */
+
+#press{
+    background-color: #ef8171;
+}
+
+.press-logo{
+    margin: 20px 20px 50px;
+    width: 15%;
+}
+
+/* PRICING */
+
+.pricing-col{
+    padding: 2% 3%;
+}
+
+/* CALL TO ACTION  */
+
+
+
+/* FOOTER */
+
+
+#footer .container-fluid{
+    padding: 3% 15% 3%
+}
+
+.footer-icon{
+    margin: 20px 10px;
+}
+
+.footer-icon:hover{
+    color: #ef8171;
+}
